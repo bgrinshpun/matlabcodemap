@@ -1,0 +1,39 @@
+INTRODUCTION
+-----------------------
+This script finds the dependency structure of MATLAB files within a directory specified by the user, and prints the results. Additionally, it prints out the line number and text of any MATLAB comments containing the word "important".
+
+Files included:
+
+depmap.py: execution script
+depsearch.py: module containing definitions used in depmap
+
+
+INSTALLATION
+----------------------
+This code is written for the Python programming language. Download the .py files and run using Python.
+
+
+USE
+----------------------
+Use Python to run depmap.py. This script takes either one or no command line inputs. Input should be the path to a working directory containing target MATLAB files.
+
+- If no inputs are given then the script accesses the current directory
+- If a working directory is given as input, depmap.py will access the given directory
+
+
+LICENSE
+--------------
+Copyright (c) 2009,2010 Boris Grinshpun <bgrinshpun@gmail.com>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or (at
+your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
